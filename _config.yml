@@ -24,71 +24,150 @@ description: >- # this means to ignore newlines until "baseurl:"
   A comprehensive reading list and resource guide for options trading, from beginner to advanced levels.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yongkang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "yongkang/options"
 
-twitter_username: navdeepco
-github_username: yongkang
+# Site Author
+author:
+  name: "Options Trading Reading List"
+  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "Educational resources for options trading"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yongkang/options"
 
-search_enabled: true
-heading_anchors: true
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yongkang/options"
 
-# Aux links for the upper right navigation
-aux_links:
-  "View on GitHub":
-    - "https://github.com/yongkang/options"
-
-# Sort order for navigation links
-nav_sort: case_insensitive # default, equivalent to nil
-
-# Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
-
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/yongkang/options" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
-
-footer_content: 'All content for educational purposes, not financial advice. <a href="/license">Read more.</a>'
-
-# Build settings
-remote_theme: pmarsceill/just-the-docs
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-# Exclude from processing
+# Reading Files
+include:
+  - .htaccess
+  - _pages
 exclude:
-  - "node_modules/"
-  - "*.gemspec"
-  - "*.gem"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "package.json"
-  - "package-lock.json"
-  - "script/"
-  - "lib/"
-  - "bin/"
-  - "Rakefile"
-  - "vendor/"
-  - ".sass-cache/"
-  - ".jekyll-cache/"
-  - "gemfiles/"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 
-# Markdown settings
+keep_files:
+  - .git
+  - .svn
+
+# Conversion
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
-  syntax_highlighter: rouge
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-# Compression
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"

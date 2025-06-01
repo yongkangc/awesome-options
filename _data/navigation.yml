@@ -1,0 +1,17 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Books & Resources"
+    url: /books/
+  - title: "Call Strategies"
+    url: /call-strategies/
+  - title: "Put Strategies"
+    url: /put-strategies/
+  - title: "Combined Strategies"
+    url: /combined-strategies/
+  - title: "Courses"
+    url: /courses/
+  - title: "AI Tools"
+    url: /ai-tools/
+  - title: "Contributing"
+    url: /contributing/

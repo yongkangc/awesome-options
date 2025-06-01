@@ -1,16 +1,50 @@
 ---
-layout: default
-title: Home
-nav_order: 1
-description: "A comprehensive reading list and resource guide for options trading, from beginner to advanced levels."
+layout: splash
+title: "Options Trading Reading List"
 permalink: /
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/options-banner.jpg
+  actions:
+    - label: "Get Started"
+      url: "#new-traders"
+    - label: "View on GitHub"
+      url: "https://github.com/yongkang/options"
+excerpt: "A comprehensive collection of books, courses, and resources for learning options trading at every level."
+intro:
+  - excerpt: "Start your options trading education journey with carefully curated resources organized by skill level."
+feature_row:
+  - image_path: assets/images/beginner-icon.png
+    alt: "New Traders"
+    title: "New Traders"
+    excerpt: "Essential books and free courses to get started with options trading fundamentals."
+    url: "#new-traders"
+    btn_label: "Start Learning"
+    btn_class: "btn--primary"
+  - image_path: assets/images/intermediate-icon.png
+    alt: "Mid-Level Traders"
+    title: "Mid-Level Traders"
+    excerpt: "Deepen your knowledge with advanced strategies and market analysis."
+    url: "#mid-level-traders"
+    btn_label: "Level Up"
+    btn_class: "btn--primary"
+  - image_path: assets/images/advanced-icon.png
+    alt: "Advanced Topics"
+    title: "Advanced Topics"
+    excerpt: "Master complex strategies, Greeks, and professional-level concepts."
+    url: "#advancedspecialized-topics"
+    btn_label: "Go Pro"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
 
 # Options Trading Reading List
 
 A comprehensive collection of books, courses, and resources for learning options trading at every level.
-
-{: .fs-6 .fw-300 }
 
 ---
 
@@ -163,4 +197,5 @@ This is an open-source project. If you'd like to contribute improvements, correc
 
 ---
 
-_All content is for educational purposes only and should not be considered financial advice._
+{: .notice--info}
+**Notice:** All content is for educational purposes only and should not be considered financial advice.

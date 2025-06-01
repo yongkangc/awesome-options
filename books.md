@@ -1,30 +1,46 @@
 ---
-layout: default
-title: Books
-nav_order: 2
-description: "Comprehensive options trading book recommendations organized by skill level"
-permalink: /books
+layout: single
+title: "Books & Resources"
+permalink: /books/
+toc: true
+toc_label: "Contents"
+toc_icon: "book"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
 ---
 
-# Options Trading Books
+# Options Trading Books & Resources
 
-A curated list of the best books for learning options trading, organized by experience level.
-
----
+A comprehensive collection of books and educational resources for options trading, organized by skill level.
 
 ## NEW TRADERS
 
-### Essential Beginner Books
+### Books
 
 - **Najarian Brothers Books** - Two books available, prioritize the newest one if on budget. Accessible introduction to options concepts
 - **Andrew Keene's Book** - Good beginner resource with practical insights from Chicago pit trading
 - [**The Options Playbook by Brian Overby**](https://amzn.to/2XJ07Fv) - 90% visual with payoff diagrams, recommended in hardcover format
 
+### Free Online Courses & Resources
+
+- **Options Industry Council (OIC)** - Complete all courses, videos, and exams (free)
+- **Chicago Board Options Exchange (CBOE)** - Educational courses and free options calculator
+- **Options Clearing Corporation (OCC)** - Training materials and resources
+- **Tastytrade Learning Center** - Both beginner and advanced courses (highly recommended)
+- **Option Alpha** - Free videos and educational courses
+- **Interactive Brokers Campus** - Traders Academy courses with videos and quizzes
+- **Think or Swim/TD Ameritrade** - Learning center with essential videos
+- **CME Institute** - "All About Options" course at their learning center
+- **Bloomberg Market Concepts** - Low-cost course with solid options section
+
+### Video Content
+
+- **Sang Lucci's YouTube Videos (2013-2015)** - Focus on order flow sweeps and ATM weeklies, market microstructure insights
+
 ---
 
 ## MID-LEVEL TRADERS
-
-### Core Intermediate Texts
 
 - [**Options as a Strategic Investment (5th Edition) by Lawrence G. McMillan**](https://amzn.to/2UfZfWo) - Consensus "bible" of options trading
 - **Book by Spina/Sosnoff** - Concise, no-fluff approach from Chicago legend Tom Sosnoff
@@ -42,6 +58,10 @@ A curated list of the best books for learning options trading, organized by expe
 - [**Trading Volatility by Colin Bennett**](https://www.amazon.com/Trading-Volatility-Colin-Bennett/dp/0956693601) - Institutional-level volatility trading concepts
 - [**Dynamic Hedging by Nassim Taleb**](https://www.amazon.com/Dynamic-Hedging-Managing-Vanilla-Options/dp/0471152803) - Deep practical and philosophical insights (hard to find)
 
+### Jeff Augen's Three Books
+
+Available on Amazon, covering various options strategies
+
 ### Greeks and Pricing
 
 - [**Trading Option Greeks by Dan Parsanelli**](https://amzn.to/3gVK6U9) - Well-scoped book on risk management
@@ -49,10 +69,13 @@ A curated list of the best books for learning options trading, organized by expe
 
 ### Specialized Strategies
 
-- **Jeff Augen's Three Books** - Available on Amazon, covering various options strategies
 - **Intrinsic by Mike Yuen** - Focus on LEAPS strategies for tech stocks during bull markets
 - **Intelligent Option Investor** - Value investing approach to options
 - **Euan Sinclair's Three Books** - Advanced volatility concepts
+
+### Historical/Cultural
+
+- **Trading Pit Hand Signals by Carlson** - Coffee table book about floor trading culture
 
 ---
 
@@ -95,6 +118,26 @@ A curated list of the best books for learning options trading, organized by expe
 - [**The Volatility Surface by Jim Gatheral**](https://www.amazon.com/Volatility-Surface-Practitioners-Guide/dp/0471792519) (9/10) - Mathematical approach to volatility
 - [**Lectures on the Smile by Emanuel Derman**](https://www.amazon.com/My-Life-Quant-Reflections-Physics/dp/0470192739) (8/10) - Academic volatility concepts
 
-### Historical/Cultural
+---
 
-- **Trading Pit Hand Signals by Carlson** - Coffee table book about floor trading culture
+## PROFESSIONAL DEVELOPMENT
+
+### Podcasts
+
+- **Ally Options Playbook** - Available on Apple Podcasts and Spotify
+
+### Professional Certifications
+
+Consider pursuing CFA, FRM, CMT, CFP, CAIA, CIPM, or CTP exams for comprehensive options coverage
+
+### Academic Programs
+
+- **MBA Programs** - Most top programs use Hull's text in derivatives classes
+- **MSF Programs** - Master's in Finance with derivatives focus
+
+### Accounting (CPA)
+
+- Becker CPA materials cover stock compensation and option award accounting
+
+{: .notice--info}
+**Notice:** All content is for educational purposes only and should not be considered financial advice.
