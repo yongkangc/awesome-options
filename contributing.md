@@ -2,25 +2,40 @@
 layout: default
 title: Contributing
 nav_order: 99
-description: "OptionNotes is an open source collection options trading strategies. Anyone can help improve it"
+description: "Options Trading Reading List is an open source collection of educational resources. Anyone can help improve it"
 permalink: /contributing
 ---
 
 # Contributing
-### Help improve OptionNotes! 
 
-I would love for OptionNotes to turn into a community driven project. You can help by:
+### Help improve the Options Trading Reading List!
 
-- Adding more information to existing strategies if you find something missing
-- Adding any trading strategies that you use that are missing from the site
-- Add real world trade examples to the strategies
-- Add profit/loss diagrams to the strategies
-- Margin requirements for different strategies
-- Anything else you think an options trader might find useful, even if it is not a strategy
+I would love for this project to turn into a community-driven resource. You can help by:
 
-### There are few ways you can do this:
+- Adding more book recommendations with detailed reviews
+- Contributing new educational resources and courses
+- Adding real-world trading examples and case studies
+- Improving existing content with better descriptions
+- Adding new categories or sections
+- Correcting any errors or outdated information
+- Anything else you think would help options traders learn more effectively
 
-- Go to the [github project page](https://github.com/navdeepsekhon/options) and make the edits yourself and create a pull request. You can learn about creating a pull request here. [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
-- Or you can create a new issue with the details. Create an issue [here](https://github.com/navdeepsekhon/options/issues)
-- Or just reach out to me on twitter [@navdeepco](https://twitter.com/navdeepco)
+### There are a few ways you can contribute:
 
+- Go to the [GitHub project page](https://github.com/yongkang/options) and make the edits yourself, then create a pull request. You can learn about creating a pull request [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+- Create a new issue with your suggestions. Create an issue [here](https://github.com/yongkang/options/issues)
+- Fork the repository and submit improvements
+
+### Content Guidelines
+
+When contributing, please:
+
+- Ensure all book recommendations include proper attribution and links
+- Provide brief but informative descriptions
+- Organize content by skill level (beginner, intermediate, advanced)
+- Include ratings or difficulty levels where appropriate
+- Verify that links are working and current
+
+---
+
+_All contributions are welcome and appreciated!_
