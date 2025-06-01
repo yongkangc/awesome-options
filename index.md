@@ -151,6 +151,10 @@ Consider pursuing CFA, FRM, CMT, CFP, CAIA, CIPM, or CTP exams for comprehensive
   - **Combined Strategies**: Iron condors, straddles, strangles, and the wheel strategy
   - **Detailed Strategy Breakdowns**: Each strategy includes setup, risk/reward profiles, management techniques, and real-world applications
 
+### AI Tools & Technology
+
+- [**AI Tools & Resources**](/ai-tools) - Comprehensive guide to using artificial intelligence for options trading analysis and opportunity identification
+
 ---
 
 ## Contributing
