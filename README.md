@@ -2,8 +2,7 @@
 
 A comprehensive collection of books, courses, and resources for learning options trading at every level.
 
-🌐 **Live Site**: [https://yongkang.github.io/options](https://yongkang.github.io/options)
-
+🌐 **Live Site**: [https://yongkangc.github.io/awesome-options/](https://yongkangc.github.io/awesome-options/)
 ## About
 
 This repository contains a curated reading list and educational resource guide for options trading, organized by skill level from beginner to advanced. The content is automatically deployed to GitHub Pages using Jekyll.
